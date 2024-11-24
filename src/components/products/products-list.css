@@ -1,0 +1,22 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-message {
+    font-size: 8px;
+    color: red;
+    padding: 0px;
+}
